@@ -1,0 +1,16 @@
+wdd130/
+│
+└── wwr/
+    ├── about.html
+    ├── images/
+    │     ├── logo.png                ✅
+    │     ├── hero.jpg                ✅
+    │     ├── happy-client.jpg        ✅
+    │     ├── rafting1.jpg            ✅
+    │     ├── rafting2.jpg            ✅
+    │     ├── rafting3.jpg            ✅
+    │     ├── facebook-icon.png       ✅
+    │     ├── twitter-icon.png        ✅
+    │     └── instagram-icon.png      ✅
+    └── styles/
+          └── rafting.css

@@ -1,0 +1,143 @@
+/* =========================
+   Wild Flow Rafting Styles
+   ========================= */
+
+/* ---------- Variables ---------- */
+:root {
+  --primary-color: #004d40;
+  --accent1-color: #009688;
+  --accent2-color: #e0f2f1;
+  --heading-font: 'Trebuchet MS', sans-serif;
+  --body-font: 'Arial', sans-serif;
+}
+
+/* ---------- Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- General ---------- */
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* ---------- Header ---------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--accent2-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+header img {
+  height: 60px;
+}
+
+/* ---------- Navigation ---------- */
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: var(--accent1-color);
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 77, 64, 0.85);
+  color: white;
+  padding: 20px;
+  font-family: var(--heading-font);
+}
+
+.hero article {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+
+/* ---------- Section Styling ---------- */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.adventure-gallery {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.adventure-gallery img {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  background-color: var(--accent2-color);
+  border-top: 2px solid var(--primary-color);
+  padding: 16px;
+  margin-top: 30px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+}
